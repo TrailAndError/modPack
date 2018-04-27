@@ -82,11 +82,11 @@
             <point id="97" idObject="78" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" hideMainPath="false" id="98" inLayout="false" mx="-55.8171" my="-62.6109" name="Fastener" seamAllowance="true" united="false" version="2" width="1.5">
-                <data annotation="" foldPosition="" fontSize="27" height="3.56632" letter="F" mx="177.532" my="2715.08" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5.22576">
+            <detail forbidFlipping="false" hideMainPath="false" id="98" inLayout="true" mx="-100.58" my="-125.256" name="Fastener" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="27" height="5" letter="F" mx="177.532" my="2715.08" onFold="false" orientation="" quantity="2" rotation="0" rotationWay="" tilt="" visible="true" width="5">
                     <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
                     <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
-                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="Tent Floor, %wCut% %pQuantity%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
                 </data>
                 <patternInfo fontSize="0" height="0" mx="0" my="0" rotation="0" visible="false" width="0"/>
                 <grainline arrows="0" length="0" mx="0" my="0" rotation="90" visible="false"/>
@@ -253,16 +253,30 @@
             <point angle="270" basePoint="107" id="1262" length="10" lineColor="deeppink" mx="0.132292" my="0.264583" name="B36" type="endLine" typeLine="dotLine"/>
             <point angle="180" basePoint="1262" id="1263" lineColor="deeppink" mx="-2.27211" my="-0.431426" name="B37" p1Line="119" p2Line="324" type="lineIntersectAxis" typeLine="hair"/>
             <point angle="0" basePoint="1262" id="1264" lineColor="deeppink" mx="0.132292" my="0.264583" name="B38" p1Line="114" p2Line="325" type="lineIntersectAxis" typeLine="hair"/>
+            <point firstPoint="324" id="1282" length="12" lineColor="black" mx="0.132292" my="0.264583" name="B39" secondPoint="107" type="alongLine" typeLine="none"/>
+            <point firstPoint="325" id="1283" length="Line_C34_B39" lineColor="black" mx="0.132292" my="0.264583" name="B40" secondPoint="110" type="alongLine" typeLine="none"/>
+            <point angle="0" firstPoint="325" id="1284" length="-2.5" lineColor="black" mx="0.132292" my="0.264583" name="B41" secondPoint="1283" type="normal" typeLine="none"/>
+            <point angle="0" firstPoint="1283" id="1285" length="Line_C35_B41" lineColor="black" mx="0.132292" my="0.264583" name="B42" secondPoint="325" type="normal" typeLine="none"/>
+            <point angle="0" firstPoint="324" id="1286" length="Line_C35_B41" lineColor="black" mx="0.132292" my="0.264583" name="B43" secondPoint="1282" type="normal" typeLine="none"/>
+            <point angle="0" firstPoint="1282" id="1287" length="-Line_C35_B41" lineColor="black" mx="0.132292" my="0.264583" name="B44" secondPoint="324" type="normal" typeLine="none"/>
+            <line firstPoint="1287" id="1288" lineColor="cornflowerblue" secondPoint="1285" typeLine="hair"/>
+            <line firstPoint="1286" id="1289" lineColor="cornflowerblue" secondPoint="1284" typeLine="hair"/>
+            <line firstPoint="1284" id="1290" lineColor="cornflowerblue" secondPoint="1285" typeLine="hair"/>
+            <line firstPoint="1287" id="1291" lineColor="cornflowerblue" secondPoint="1286" typeLine="hair"/>
+            <point angle="0" firstPoint="1264" id="1297" length="-Line_C35_B41" lineColor="black" mx="0.132292" my="0.264583" name="B45" secondPoint="110" type="normal" typeLine="none"/>
+            <point angle="0" firstPoint="1262" id="1298" length="Line_C35_B41" lineColor="black" mx="0.132292" my="0.264583" name="B46" secondPoint="107" type="normal" typeLine="none"/>
+            <point angle="0" firstPoint="107" id="1299" length="-Line_C35_B41" lineColor="black" mx="0.132292" my="0.264583" name="B47" secondPoint="1262" type="normal" typeLine="none"/>
+            <point angle="0" firstPoint="110" id="1300" length="Line_C35_B41" lineColor="black" mx="0.132292" my="0.264583" name="B48" secondPoint="1264" type="normal" typeLine="none"/>
+            <line firstPoint="1299" id="1301" lineColor="cornflowerblue" secondPoint="1298" typeLine="hair"/>
+            <line firstPoint="1298" id="1302" lineColor="cornflowerblue" secondPoint="1297" typeLine="hair"/>
+            <line firstPoint="1297" id="1303" lineColor="cornflowerblue" secondPoint="1300" typeLine="hair"/>
+            <line firstPoint="1300" id="1304" lineColor="cornflowerblue" secondPoint="1299" typeLine="hair"/>
         </calculation>
         <modeling>
             <point id="539" idObject="521" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="540" idObject="522" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="541" idObject="520" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="542" idObject="519" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="766" idObject="206" inUse="false" mx="-5.11864" my="-1.26848" type="modeling"/>
-            <point id="767" idObject="211" inUse="false" mx="0.213758" my="0.264583" type="modeling"/>
-            <point id="768" idObject="212" inUse="false" mx="0.132292" my="0.202052" type="modeling"/>
-            <point id="769" idObject="207" inUse="false" mx="0.449693" my="-0.543311" type="modeling"/>
             <point id="985" idObject="107" inUse="true" mx="0.196221" my="-1.59132" type="modeling"/>
             <point id="986" idObject="115" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="987" idObject="855" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
@@ -295,14 +309,6 @@
             <point id="1127" idObject="204" inUse="true" mx="-2.07803" my="-1.16563" type="modeling"/>
             <point id="1128" idObject="205" inUse="true" mx="0.417007" my="-1.29398" type="modeling"/>
             <point id="1129" idObject="520" inUse="true" mx="0.132292" my="0.171858" type="modeling"/>
-            <point id="1139" idObject="1003" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1140" idObject="1004" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1152" idObject="1003" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1153" idObject="1002" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1154" idObject="1004" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1156" idObject="1003" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1157" idObject="1002" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1158" idObject="1004" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="1160" idObject="1006" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
             <spline id="1161" idObject="1018" inUse="true" type="modelingPath"/>
             <point id="1162" idObject="1005" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
@@ -332,19 +338,27 @@
             <point id="1180" idObject="212" inUse="true" mx="0.229142" my="0.250477" type="modeling"/>
             <point id="1182" idObject="1002" inUse="true" type="pin"/>
             <point id="1183" idObject="1022" inUse="true" type="pin"/>
-            <point id="1265" idObject="1263" inUse="true" mx="-2.32643" my="-0.559702" type="modeling"/>
-            <point id="1266" idObject="119" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1267" idObject="107" inUse="true" mx="0.196221" my="-1.59132" type="modeling"/>
-            <point id="1268" idObject="110" inUse="true" mx="-0.728121" my="-1.53491" type="modeling"/>
-            <point id="1269" idObject="114" inUse="true" mx="-1.66742" my="-1.61819" type="modeling"/>
-            <point id="1270" idObject="1264" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1265" idObject="1263" inUse="false" mx="-2.32643" my="-0.559702" type="modeling"/>
+            <point id="1266" idObject="119" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1267" idObject="107" inUse="false" mx="0.196221" my="-1.59132" type="modeling"/>
+            <point id="1268" idObject="110" inUse="false" mx="-0.728121" my="-1.53491" type="modeling"/>
+            <point id="1269" idObject="114" inUse="false" mx="-1.66742" my="-1.61819" type="modeling"/>
+            <point id="1270" idObject="1264" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1292" idObject="1286" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1293" idObject="1287" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1294" idObject="1285" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1295" idObject="1284" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1305" idObject="1298" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1306" idObject="1299" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1307" idObject="1300" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1308" idObject="1297" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" id="543" mx="-27.5735" my="-23.2762" name="Top Front" seamAllowance="true" united="false" version="2" width="1">
-                <data fontSize="0" height="4" letter="TF" mx="-1975.97" my="4035.06" rotation="0" visible="true" width="5">
+            <detail forbidFlipping="false" hideMainPath="false" id="543" inLayout="true" mx="-100.735" my="-27.4294" name="Top Pocket Front" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="" fontSize="0" height="4" letter="TPF" mx="-1975.97" my="4035.06" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
                     <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
                     <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
-                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="PU4000, %wCut% %pQuantity%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
                 </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="90" mx="0" my="0" rotation="1" visible="false"/>
@@ -355,19 +369,23 @@
                     <node idObject="542" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1001" mx="-22.0004" my="-82.7813" name="Detail" seamAllowance="true" united="false" version="2" width="1.5">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1001" inLayout="true" mx="-97.3334" my="-95.2604" name="Bottom Back" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="BB" mx="-2154.71" my="1653.74" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
                     <node idObject="985" type="NodePoint"/>
                     <node idObject="986" type="NodePoint"/>
-                    <node idObject="987" type="NodePoint"/>
+                    <node angle="4" idObject="987" type="NodePoint"/>
                     <node idObject="988" type="NodePoint"/>
                     <node idObject="989" type="NodePoint"/>
                     <node idObject="990" type="NodePoint"/>
                     <node idObject="991" type="NodePoint"/>
-                    <node idObject="992" type="NodePoint"/>
+                    <node angle="5" idObject="992" type="NodePoint"/>
                     <node idObject="993" type="NodePoint"/>
                     <node idObject="994" type="NodePoint"/>
                     <node idObject="995" type="NodePoint"/>
@@ -378,8 +396,12 @@
                     <node idObject="1000" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1059" inLayout="false" mx="30.0906" my="-19.4005" name="Detail" seamAllowance="true" united="false" version="2" width="1">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1059" inLayout="true" mx="-108.182" my="-87.7854" name="Strap Inner" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="" fontSize="0" height="4" letter="SI" mx="-2618.07" my="3781.7" onFold="false" orientation="" quantity="2" rotation="0" rotationWay="" tilt="" visible="true" width="4">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -389,8 +411,12 @@
                     <node idObject="1058" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1120" inLayout="true" mx="-27.5815" my="-28.7806" name="Detail" seamAllowance="true" united="false" version="2" width="1.5">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1120" inLayout="true" mx="-100.403" my="-34.1221" name="Top Strap Equalizer" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="TSE" mx="-2022.72" my="3374.75" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -400,8 +426,12 @@
                     <node idObject="1119" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1125" inLayout="true" mx="-27.8373" my="-24.8823" name="Detail" seamAllowance="true" united="false" version="2" width="1">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1125" inLayout="true" mx="-100.7" my="-29.5373" name="Top Pocket Back" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="TPB" mx="-1993.83" my="3756.01" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -411,8 +441,12 @@
                     <node before="0" idObject="1124" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1130" inLayout="true" mx="-28.2676" my="-2.75265" name="Detail" seamAllowance="true" united="false" version="2" width="1">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1130" inLayout="true" mx="-68.1856" my="-28.5493" name="Top Pocket Inner" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="TPI" mx="-2086.27" my="3992.9" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -422,8 +456,12 @@
                     <node idObject="1129" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1166" inLayout="false" mx="38.5416" my="-11.818" name="strap" seamAllowance="true" united="false" version="2" width="1">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1166" inLayout="true" mx="-100.295" my="-78.6999" name="Strap Outer" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="" fontSize="0" height="4" letter="SO" mx="-2543.04" my="3690.99" onFold="false" orientation="" quantity="2" rotation="0" rotationWay="" tilt="" visible="true" width="4">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="1" centerPin="1172" length="1" mx="0" my="0" rotation="90" visible="true"/>
                 <nodes>
@@ -441,8 +479,12 @@
                     <record>1172</record>
                 </pins>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1181" inLayout="true" mx="-27.4551" my="-47.0895" name="strap_fastener" seamAllowance="true" united="false" version="2" width="1.5">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1181" inLayout="true" mx="-63.1359" my="-90.3049" name="Top Strap reinforcement" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="TSR" mx="-2142.26" my="3312.43" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" bottomPin="1183" length="1" mx="0" my="0" rotation="90" topPin="1182" visible="true"/>
                 <nodes>
@@ -460,17 +502,34 @@
                     <record>1183</record>
                 </pins>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1271" inLayout="true" mx="-18.8866" my="-15.7994" name="Detail" seamAllowance="true" united="false" version="2" width="1.5">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1296" inLayout="true" mx="-137.334" my="-91.6808" name="Pad Holder Top" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="BHT" mx="-1908.96" my="2881.11" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
-                    <node idObject="1265" type="NodePoint"/>
-                    <node idObject="1266" type="NodePoint"/>
-                    <node idObject="1267" type="NodePoint"/>
-                    <node idObject="1268" type="NodePoint"/>
-                    <node idObject="1269" type="NodePoint"/>
-                    <node idObject="1270" type="NodePoint"/>
+                    <node idObject="1292" type="NodePoint"/>
+                    <node idObject="1293" type="NodePoint"/>
+                    <node idObject="1294" type="NodePoint"/>
+                    <node idObject="1295" type="NodePoint"/>
+                </nodes>
+            </detail>
+            <detail forbidFlipping="false" hideMainPath="false" id="1309" inLayout="true" mx="-135.455" my="-94.6868" name="Pad Holder Bottom" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="PHB" mx="-2160.71" my="1466.95" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="1305" type="NodePoint"/>
+                    <node idObject="1306" type="NodePoint"/>
+                    <node idObject="1307" type="NodePoint"/>
+                    <node idObject="1308" type="NodePoint"/>
                 </nodes>
             </detail>
         </details>
@@ -531,12 +590,6 @@
             <line firstPoint="1240" id="1246" lineColor="darkGreen" secondPoint="1241" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="478" idObject="466" inUse="false" mx="-0.0493718" my="0.264583" type="modeling"/>
-            <point id="479" idObject="467" inUse="false" mx="0.313956" my="0.0829192" type="modeling"/>
-            <point id="481" idObject="467" inUse="false" mx="0.313956" my="0.0829192" type="modeling"/>
-            <point id="482" idObject="468" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="484" idObject="468" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="485" idObject="469" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="946" idObject="941" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="947" idObject="943" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="948" idObject="339" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
@@ -561,8 +614,12 @@
             <point id="1252" idObject="1243" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" hideMainPath="false" id="951" mx="-133.76" my="-9.69044" name="Detail" seamAllowance="true" united="false" version="2" width="1.5">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="951" inLayout="true" mx="-155.58" my="-19.5447" name="Main Left" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="ML" mx="3519.81" my="-931.74" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -573,8 +630,12 @@
                     <node idObject="950" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="958" mx="-123.157" my="-10.035" name="Detail" seamAllowance="true" united="false" version="2" width="1.5">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="958" inLayout="true" mx="-144.344" my="-20.2363" name="Main Middle" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="MM" mx="4265.76" my="-832.926" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -586,8 +647,12 @@
                     <node idObject="957" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="964" mx="-109.473" my="-9.35083" name="Detail" seamAllowance="true" united="false" version="2" width="1.5">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="964" inLayout="true" mx="-132.285" my="-19.7423" name="Main Right" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="MR" mx="5043.45" my="-827.997" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -598,8 +663,12 @@
                     <node idObject="963" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1253" inLayout="true" mx="-123.298" my="46.4952" name="Detail" seamAllowance="true" united="false" version="2" width="1">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1253" inLayout="true" mx="-141.934" my="36.0083" name="Ice Axe Holder" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="" fontSize="0" height="4" letter="IAH" mx="4266.07" my="-148.464" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="4">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -616,36 +685,46 @@
     </draw>
     <draw name="top_side">
         <calculation>
-            <point id="376" mx="-0.297511" my="0.230311" name="F" type="single" x="-16.1938" y="115.394"/>
-            <arc angle1="0" angle2="180" center="376" color="blue" id="544" radius="#rollup_closer_add/3.14" type="simple"/>
-            <point arc="544" id="545" length="0" mx="-0.809809" my="0.343092" name="D1" type="cutArc"/>
-            <point arc="544" id="548" length="Arc_F_544" mx="0.132292" my="0.264583" name="D2" type="cutArc"/>
-            <line firstPoint="548" id="551" lineColor="black" secondPoint="545" typeLine="hair"/>
-            <point angle="270" basePoint="376" id="552" length="10" lineColor="black" mx="0.132292" my="0.264583" name="D3" type="endLine" typeLine="none"/>
-            <line firstPoint="548" id="553" lineColor="goldenrod" secondPoint="552" typeLine="dotLine"/>
-            <arc angle1="45" angle2="130" center="552" color="black" id="554" radius="Line_D2_D3" type="simple"/>
+            <point id="376" mx="-0.297511" my="0.230311" name="F" type="single" x="0" y="115.39"/>
             <arc angle1="0" center="376" color="black" id="840" length="#rollup_closer_add" penStyle="hair" radius="(#depth/2)*1.1" type="arcWithLength"/>
             <point arc="840" id="841" length="0" mx="0.485583" my="-0.32423" name="D4" type="cutArc"/>
             <point arc="840" id="844" length="#rollup_closer_add" mx="-1.60578" my="-1.3743" name="D5" type="cutArc"/>
             <line firstPoint="844" id="847" lineColor="black" secondPoint="841" typeLine="hair"/>
+            <point angle="270" basePoint="844" id="1272" length="5" lineColor="black" mx="0.132292" my="0.264583" name="D1" type="endLine" typeLine="hair"/>
+            <line firstPoint="1272" id="1273" lineColor="black" secondPoint="841" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="848" idObject="844" inUse="true" mx="0.0918488" my="0.264583" type="modeling"/>
-            <arc id="849" idObject="840" inUse="true" type="modeling"/>
-            <point id="850" idObject="841" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1274" idObject="1272" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1275" idObject="844" inUse="true" mx="-1.60578" my="-1.3743" type="modeling"/>
+            <arc id="1276" idObject="840" inUse="true" type="modeling"/>
+            <point id="1277" idObject="841" inUse="true" mx="0.485583" my="-0.32423" type="modeling"/>
+            <point id="1279" idObject="844" inUse="true" mx="-1.60578" my="-1.3743" type="modeling"/>
+            <point id="1280" idObject="841" inUse="true" mx="0.485583" my="-0.32423" type="modeling"/>
+            <path cut="false" id="1281" inUse="true" name="line" type="2" typeLine="dotLine">
+                <nodes>
+                    <node idObject="1279" type="NodePoint"/>
+                    <node idObject="1280" type="NodePoint"/>
+                </nodes>
+            </path>
         </modeling>
         <details>
-            <detail forbidFlipping="false" id="851" mx="-45.0832" my="-67.9687" name="Detail" seamAllowance="true" united="false" version="2" width="2">
-                <data fontSize="0" height="1" letter="" mx="0" my="0" rotation="0" visible="false" width="1">
+            <detail forbidFlipping="false" hideMainPath="false" id="1278" inLayout="true" mx="-186.302" my="-30.7003" name="Top Pocket Side" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="TPS" mx="-71.1806" my="4051.51" onFold="false" orientation="" quantity="2" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
                     <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
                 </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
-                <grainline arrows="0" length="90" mx="0" my="0" rotation="1" visible="false"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
-                    <node idObject="848" type="NodePoint"/>
-                    <node idObject="849" reverse="1" type="NodeArc"/>
-                    <node idObject="850" type="NodePoint"/>
+                    <node idObject="1274" type="NodePoint"/>
+                    <node idObject="1275" type="NodePoint"/>
+                    <node idObject="1276" reverse="1" type="NodeArc"/>
+                    <node idObject="1277" type="NodePoint"/>
                 </nodes>
+                <iPaths>
+                    <record path="1281"/>
+                </iPaths>
             </detail>
         </details>
         <groups/>
@@ -678,10 +757,10 @@
             <point angle="0" basePoint="1254" id="1256" lineColor="black" mx="0.132292" my="0.264583" name="E20" p1Line="648" p2Line="493" type="lineIntersectAxis" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="726" idObject="647" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="727" idObject="492" inUse="true" mx="-0.0377387" my="0.264583" type="modeling"/>
-            <point id="728" idObject="493" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="729" idObject="648" inUse="true" mx="0.0463137" my="0.0926267" type="modeling"/>
+            <point id="726" idObject="647" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="727" idObject="492" inUse="false" mx="-0.0377387" my="0.264583" type="modeling"/>
+            <point id="728" idObject="493" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="729" idObject="648" inUse="false" mx="0.0463137" my="0.0926267" type="modeling"/>
             <point id="975" idObject="970" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="976" idObject="971" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
             <point id="977" idObject="492" inUse="true" mx="-0.0377387" my="0.264583" type="modeling"/>
@@ -696,21 +775,12 @@
             <point id="1260" idObject="1256" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" id="730" inLayout="false" mx="-53.391" my="-33.9911" name="Detail" seamAllowance="true" united="false" version="2" width="2">
-                <data fontSize="0" height="1" letter="" mx="0" my="0" rotation="0" visible="false" width="1">
+            <detail forbidFlipping="false" hideMainPath="false" id="979" inLayout="true" mx="-145.409" my="-13.0837" name="Main Pocket Left" seamAllowance="true" united="false" version="2" width="2">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="MPL" mx="3368.68" my="1278.91" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
                     <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
                 </data>
-                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
-                <grainline arrows="0" length="90" mx="0" my="0" rotation="1" visible="false"/>
-                <nodes>
-                    <node idObject="726" type="NodePoint"/>
-                    <node idObject="727" type="NodePoint"/>
-                    <node idObject="728" type="NodePoint"/>
-                    <node idObject="729" type="NodePoint"/>
-                </nodes>
-            </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="979" inLayout="false" mx="-117.228" my="-0.684207" name="Detail" seamAllowance="true" united="false" version="2" width="2">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -720,8 +790,12 @@
                     <node idObject="978" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="984" inLayout="false" mx="-106.052" my="-0.684207" name="Detail" seamAllowance="true" united="false" version="2" width="2">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="984" inLayout="true" mx="-129.348" my="-13.4594" name="Main Pocket Left" seamAllowance="true" united="false" version="2" width="2">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="MPR" mx="4798.24" my="1285.82" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -731,8 +805,12 @@
                     <node idObject="983" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1261" inLayout="true" mx="-112.245" my="-4.11745" name="Detail" seamAllowance="true" united="false" version="2" width="2">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1261" inLayout="true" mx="-137.42" my="-16.8926" name="Main Pocket Middle" seamAllowance="true" united="false" version="2" width="2">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="MPM" mx="4035.35" my="1051.86" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -887,11 +965,11 @@
             <point id="1236" idObject="1206" inUse="true" mx="-1.33625" my="0.175581" type="modeling"/>
         </modeling>
         <details>
-            <detail forbidFlipping="false" hideMainPath="false" id="929" inLayout="false" mx="-31.837" my="24.2874" name="Hip Belt Mesh" seamAllowance="true" united="false" version="2" width="1">
-                <data annotation="" foldPosition="" fontSize="0" height="5" letter="HBM" mx="621.072" my="1708.01" onFold="false" orientation="" quantity="2" rotation="0" rotationWay="" tilt="" visible="true" width="5">
-                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%pLetter%"/>
-                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%pName%"/>
-                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="Cut: %pQuantity%"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="929" inLayout="true" mx="-147.565" my="-98.0163" name="Hip Belt Mesh" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="HBM" mx="831.471" my="1715.84" onFold="false" orientation="" quantity="2" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
                 </data>
                 <patternInfo fontSize="0" height="5" mx="0" my="0" rotation="0" visible="true" width="5"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
@@ -906,11 +984,11 @@
                     <node idObject="928" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1075" mx="-27.2895" my="38.9442" name="Hip Belp Outer" seamAllowance="true" united="false" version="2" width="1">
+            <detail forbidFlipping="false" hideMainPath="false" id="1075" inLayout="true" mx="-145.648" my="-84.2988" name="Hip Belp Outer" seamAllowance="true" united="false" version="2" width="1">
                 <data annotation="" foldPosition="" fontSize="0" height="5" letter="HBO" mx="904.422" my="1725.49" onFold="false" orientation="" quantity="2" rotation="0" rotationWay="" tilt="" visible="true" width="5">
-                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%pLetter%"/>
-                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="%pName%"/>
-                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="Cut: %pQuantity%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
                 </data>
                 <patternInfo fontSize="0" height="5" mx="0" my="0" rotation="0" visible="true" width="5"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
@@ -928,8 +1006,14 @@
                     <record path="1083"/>
                 </iPaths>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1226" inLayout="true" mx="10.1974" my="32.9629" name="Detail" seamAllowance="true" united="false" version="2" width="1">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1226" inLayout="true" mx="-116.991" my="-76.3777" name="Hip Pocket Top" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="Mirror one if two pocket are needed" foldPosition="" fontSize="0" height="4" letter="HPT" mx="800.506" my="1538.24" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="4">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="Mirror one if two "/>
+                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="pocket are needed"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -945,8 +1029,14 @@
                     <node after="0" before="0" idObject="1225" type="NodePoint"/>
                 </nodes>
             </detail>
-            <detail forbidFlipping="false" hideMainPath="false" id="1237" inLayout="true" mx="9.4065" my="34.5154" name="Detail" seamAllowance="true" united="false" version="2" width="1">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
+            <detail forbidFlipping="false" hideMainPath="false" id="1237" inLayout="true" mx="-116.655" my="-74.2616" name="Hip Pocket Bottom" seamAllowance="true" united="false" version="2" width="1">
+                <data annotation="Mirror one if two pocket are needed" foldPosition="" fontSize="0" height="4" letter="HPB" mx="812.693" my="1753.21" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="4">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="Mirror one if two "/>
+                    <line alignment="0" bold="false" italic="false" sfIncrement="0" text="pockets are needed"/>
+                </data>
                 <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
                 <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
                 <nodes>
@@ -977,30 +1067,15 @@
             <line firstPoint="1089" id="1093" lineColor="black" secondPoint="1092" typeLine="hair"/>
         </calculation>
         <modeling>
-            <point id="1094" idObject="1084" inUse="true" mx="-0.78867" my="-0.727248" type="modeling"/>
-            <point id="1095" idObject="1089" inUse="true" mx="-0.578976" my="-1.48126" type="modeling"/>
-            <point id="1096" idObject="1092" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1097" idObject="1091" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1098" idObject="1090" inUse="true" mx="0.132292" my="0.199922" type="modeling"/>
-            <point id="1099" idObject="1086" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
-            <point id="1100" idObject="1085" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1094" idObject="1084" inUse="false" mx="-0.78867" my="-0.727248" type="modeling"/>
+            <point id="1095" idObject="1089" inUse="false" mx="-0.578976" my="-1.48126" type="modeling"/>
+            <point id="1096" idObject="1092" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1097" idObject="1091" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1098" idObject="1090" inUse="false" mx="0.132292" my="0.199922" type="modeling"/>
+            <point id="1099" idObject="1086" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1100" idObject="1085" inUse="false" mx="0.132292" my="0.264583" type="modeling"/>
         </modeling>
-        <details>
-            <detail forbidFlipping="false" hideMainPath="false" id="1101" inLayout="true" mx="5.15565" my="-10.3113" name="Detail" seamAllowance="true" united="false" version="2" width="1">
-                <data annotation="" foldPosition="" fontSize="0" height="1" letter="" mx="0" my="0" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="false" width="1"/>
-                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
-                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
-                <nodes>
-                    <node idObject="1094" type="NodePoint"/>
-                    <node idObject="1095" type="NodePoint"/>
-                    <node idObject="1096" type="NodePoint"/>
-                    <node idObject="1097" type="NodePoint"/>
-                    <node idObject="1098" type="NodePoint"/>
-                    <node idObject="1099" type="NodePoint"/>
-                    <node idObject="1100" type="NodePoint"/>
-                </nodes>
-            </detail>
-        </details>
+        <details/>
         <groups/>
     </draw>
     <draw name="top_ring">
@@ -1011,8 +1086,29 @@
             <point angle="0" firstPoint="1104" id="1105" length="2*#depth+2*#width" lineColor="black" mx="0.132292" my="0.264583" name="H3" secondPoint="1102" type="normal" typeLine="hair"/>
             <line firstPoint="1105" id="1106" lineColor="black" secondPoint="1103" typeLine="hair"/>
         </calculation>
-        <modeling/>
-        <details/>
+        <modeling>
+            <point id="1310" idObject="1102" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1311" idObject="1104" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1312" idObject="1105" inUse="true" mx="0.132292" my="0.264583" type="modeling"/>
+            <point id="1313" idObject="1103" inUse="true" mx="0.278429" my="0.264583" type="modeling"/>
+        </modeling>
+        <details>
+            <detail forbidFlipping="false" hideMainPath="false" id="1314" inLayout="true" mx="-13.1509" my="-83.6024" name="Top Closing" seamAllowance="true" united="false" version="2" width="1.5">
+                <data annotation="" foldPosition="" fontSize="0" height="5" letter="TC" mx="-568.049" my="-358.644" onFold="false" orientation="" quantity="1" rotation="0" rotationWay="" tilt="" visible="true" width="5">
+                    <line alignment="4" bold="true" italic="false" sfIncrement="6" text="%pLetter%"/>
+                    <line alignment="4" bold="true" italic="false" sfIncrement="2" text="%pName%"/>
+                    <line alignment="4" bold="false" italic="false" sfIncrement="0" text="%wCut% %pQuantity%"/>
+                </data>
+                <patternInfo fontSize="0" height="1" mx="0" my="0" rotation="0" visible="false" width="1"/>
+                <grainline arrows="0" length="1" mx="0" my="0" rotation="90" visible="false"/>
+                <nodes>
+                    <node idObject="1310" type="NodePoint"/>
+                    <node idObject="1311" type="NodePoint"/>
+                    <node idObject="1312" type="NodePoint"/>
+                    <node idObject="1313" type="NodePoint"/>
+                </nodes>
+            </detail>
+        </details>
         <groups/>
     </draw>
 </pattern>
